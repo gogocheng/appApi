@@ -14,7 +14,8 @@ app\common\lib\Yuntongxun
 app\route.php
 #### 验证基础类库
 app\common\lib\IAuth
-
+#### 重写异常类
+app\common\lib\exception\ApiHandleException
 
 #### 数据库
 appapi.sql

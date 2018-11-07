@@ -16,7 +16,6 @@ return [
     'app_sign_time' => 3600,// sign失效时间 秒为单位
     'app_sign_cache_time' => 3700,// sign 缓存失效时间  秒为单位
     'login_time_out_day' => 7, //登录token的失效时间   日为单位
-    'afs_url'  =>  "http://115.159.37.59/afs/api/v1",   //上传图片到afs的url地址
     'host' => "http://".$_SERVER['HTTP_HOST'],   //获取主机地址
     'port' => $_SERVER["SERVER_PORT"],  //获取端口
     'img_url' => "/agrapi/public/",
